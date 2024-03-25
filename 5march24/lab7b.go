@@ -6,12 +6,10 @@ import (
 	"os"
 	"strings"
 )
-
 // Streamer interface to represent entities that stream content
 type Streamer interface {
 	Stream()
 }
-
 // Podcast struct to store podcast details
 type Podcast struct {
 	Name     string
